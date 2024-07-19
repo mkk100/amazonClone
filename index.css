@@ -12,6 +12,13 @@ body {
 #cars{
 height: 5vh;
 }
+#myModal{
+  position: absolute;
+  width: 30%;
+  padding-top: 5px;
+  left: 80%;
+}
+
 #search{
   flex: 1;
   width: 0;
