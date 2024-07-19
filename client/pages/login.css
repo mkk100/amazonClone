@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    height: 9vh;
+}
+main{
+    max-width: 400px;
+}
+section{
+    border: 1px solid #d7ded8;
+    border-radius: 2%;
+    padding: 10%;
+    box-sizing: border-box;
+}
+input,input[type='button'] {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+input[type='button']{
+    background-color: #fce586;
+    border-radius: 6%;
+    border: none;
+}
+.line{
+    width: 100%;
+    border-top: 1px solid #d7ded8;
+}
+#buyForBusiness{
+    margin-top: 5%;
+}
