@@ -38,3 +38,16 @@ input[type='button']{
 #buyForBusiness{
     margin-top: 5%;
 }
+#createAccount{
+    border: none;
+    text-align: center;
+}
+#createAcc{
+    background: #fafaf0;
+    display: block;
+    border: 1px solid #858782;
+    text-decoration: none;
+    color: black;
+    padding: 2% 2% 2% 2%;
+    border-radius: 6%;
+}
