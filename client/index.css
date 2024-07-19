@@ -12,6 +12,9 @@ body {
 #cars{
 height: 5vh;
 }
+li{
+  list-style: none;
+}
 #myModal{
   position: absolute;
   width: 30%;

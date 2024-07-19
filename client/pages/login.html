@@ -13,10 +13,11 @@
             <h1>Sign in</h1>
             <br>
             <h2>E-mail address</h2>
-            <input>
+            <input type="email" id="email">
             <h2>Password</h2>
-            <input type="password">
-            <input type="button" value="Submit">
+            <input type="password" id="pw">
+            <a style="background-color:#fce586; text-align:center" onclick="login()"  id="createAcc">Sign in</a>
+            <br>
             <div id="agreement">By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</div>
             <br>
             <div id="help">Need help?</div>
@@ -31,6 +32,6 @@
            <a href="/client/pages/register.html" id="createAcc">Create your Amazon account</a>
         </section>
     </main>
-
+    <script src="/client/pages/jsFiles/login.js"></script>
 </body>
 </html>
