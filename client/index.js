@@ -57,3 +57,6 @@ window.onmouseover = function(event) {
     modal.style.display = "none";
   }
 }
+if(localStorage.getItem('email')){
+  document.getElementById('link').href="/client/pages/account.html"
+}
